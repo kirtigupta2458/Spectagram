@@ -7,18 +7,11 @@ export default class PostCard extends Component {
       <View style={styles.container}>
         <View style={styles.cardContainer}>
           <View style={styles.authorNameContainer}>
-            <Text style={styles.authorNameText}>
-                {this.props.post.author}
-            </Text>
+           
           </View>
-          <Image
-            source={require('../assets/post.jpeg')}
-            style={styles.postImage}
-          />
+         
           <View style={styles.captionContainer}>
-            <Text style={styles.captionText}>
-                {this.props.post.caption}
-            </Text>
+            
           </View>
         </View>
       </View>
